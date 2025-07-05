@@ -25,11 +25,11 @@ public class Product {
 
     public static Product createProduct(String name, double price, int quantity, Shippable shipDetails, Expirable expiryDetails){
         if (price < 0) {
-            System.out.println("Price cannot be negative.");
+            System.out.println("Cannot add negative price.");
             return null;
         }
         if (quantity < 0) {
-            System.out.println("Quantity cannot be negative.");
+            System.out.println("Cannot add negative quantity.");
             return null;
         }
         return new Product(name, price, quantity, shipDetails, expiryDetails);
