@@ -33,5 +33,9 @@ public class Product {
         }
         return true;
     }
+
+    public void setQuantity(int num) {
+        quantity += num;
+    }
 }
 

@@ -13,8 +13,9 @@ public class Cart {
     }
 
     public void addProduct(Product p, int q){
+        int num = 0;
         if (products.get(p) != null) {
-            int num = products.get(p);
+            num = products.get(p);
             q+=num;
         }
         if (q > p.getQuantity()){
@@ -26,11 +27,14 @@ public class Cart {
             return;
         }
         products.put(p, q);
-
+        q -=num;
+        totalPrice += q*p.getPrice();
     }
 
-    private void removeProduct(){
-
+    private void removeProduct(Product p){
+        int num = products.get(p);
+        totalPrice -= num*p.getPrice();
+        products.remove(p);
     }
 
     public boolean isEmpty() {
