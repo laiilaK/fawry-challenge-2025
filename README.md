@@ -1,5 +1,5 @@
-## Fawry Challenge 2025
-this is a submission for the Fawry challenge for the full stack internship 2025
+# Fawry Challenge 2025
+This is a submission for the Fawry challenge for the full stack internship 2025
 
 ## Assumptions
 ### Products class
@@ -15,10 +15,13 @@ this is a submission for the Fawry challenge for the full stack internship 2025
 - **JUnit:** Used as the testing framework for writing and running unit tests.
 
 ## Screenshots
-logic process test
-![image](https://github.com/user-attachments/assets/ca7302ee-30a3-4fdf-96ff-4a858eddd869)
+### Logic process test
+- Buying items that don't ship
 ![image](https://github.com/user-attachments/assets/3a328ded-aa61-4ccd-8b03-d4375ddda700)
+- Trying adding items multiple times until out of stock
+![image](https://github.com/user-attachments/assets/ca7302ee-30a3-4fdf-96ff-4a858eddd869)
+- Buying an item that requires shipping
 ![image](https://github.com/user-attachments/assets/8c82159c-a558-4b37-8fa7-bf4de502303b)
 
-validation test 
+Validation test 
 ![image](https://github.com/user-attachments/assets/fb84c342-59c9-4034-afae-dbf2d2041998)
