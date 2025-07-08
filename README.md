@@ -13,3 +13,12 @@ this is a submission for the Fawry challenge for the full stack internship 2025
 ## Dependencies Used
 - **Lombok:** Used to reduce code by automatically generating getters, setters, constructors, and other common methods through annotations. This keeps the code clean and concise, especially for attributes that do not require custom validation.
 - **JUnit:** Used as the testing framework for writing and running unit tests.
+
+## Screenshots
+logic process test
+![image](https://github.com/user-attachments/assets/ca7302ee-30a3-4fdf-96ff-4a858eddd869)
+![image](https://github.com/user-attachments/assets/3a328ded-aa61-4ccd-8b03-d4375ddda700)
+![image](https://github.com/user-attachments/assets/8c82159c-a558-4b37-8fa7-bf4de502303b)
+
+validation test 
+![image](https://github.com/user-attachments/assets/fb84c342-59c9-4034-afae-dbf2d2041998)
